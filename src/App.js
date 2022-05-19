@@ -14,15 +14,17 @@ import Formulario from './components/formulario';
 function App() {
   return (
     <div className="">
-     <Navbar/>
-    <CarouselBienvenida/>
-    <NuestraHistoria/>
-    <Materiales/>
-    <hr className='col-8 mx-auto mt-4'/>
-    <Bolsos/>
-    <hr className='col-8 mx-auto mt-4'/>
-    <Formulario/>
-    <Footer/>
+      <a href="https://wa.me/+5491156105645" target="_blank"><img src="img/whatsapp.svg"
+        alt="Boton de WhatsApp" class="botonWhatsapp"/></a>
+      <Navbar />
+      <CarouselBienvenida />
+      <NuestraHistoria />
+      <Materiales />
+      <hr className='col-8 mx-auto mt-4' />
+      <Bolsos />
+      <hr className='col-8 mx-auto mt-4' />
+      <Formulario />
+      <Footer />
     </div>
   );
 }

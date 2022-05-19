@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.botonWhatsapp {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.botonWhatsapp:hover {
+    transform: rotate(360deg)
+}
